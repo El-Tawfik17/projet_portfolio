@@ -1,3 +1,4 @@
+/*  ===starting of nav-bar style=== */
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +8,15 @@
 }
 body{
     font-family: montserrat;
+    background:linear-gradient(to top left,#0010,#000),center top / cover url(images/bg_image.jpg) fixed no-repeat;
 }
 nav{
-    background: #0082e6;
+    background:rgba(rgb(26, 15, 15), rgb(19, 29, 19), rgb(10, 10, 17), .3);
     height: 80px;
     width: 100%;
+    border: 1px solid white;
+    box-shadow: 10px 2px 5px white;
+
 }
 label.logo{
     color: white;
@@ -96,4 +101,123 @@ a.active,a:hover{
     }
    
         
+}
+/* End of nav-bar style */
+
+/* ===starting of aside style ===*/
+.left_side{
+    /* height: 100vh;
+    border: 1px solid white;
+    width: 25%;
+     
+    background:rgba(2, 44, 47, 0.712); */
+    /* opacity: 0.3; */
+top: 0;
+bottom: 0;
+left: 0;
+position: fixed;
+/* z-index: 2; */
+width: 25%;
+font-size: 14px;
+color: #fff;
+/* text-align: left; */
+background-color: rgba(145,13,13,.8);
+ 
+}
+.profil_image{
+   
+    width: 100%;
+    height: 50vh;
+    background:center top/cover  url(images/im.jpg) scroll no-repeat;
+}
+.profil_name{
+    
+position: relative;
+width: 100%;
+height: 100px;
+border: 1px solid white;
+color: white;
+
+}
+.myname{
+position:absolute;
+top: 10px;
+left: 15%;
+right: 15%;
+
+}
+.mybio{
+position: absolute;
+top: 30px;
+text-transform: lowercase;
+left: 16%;
+}
+.mybio::first-letter{
+    text-transform: capitalize;
+}
+.profil_services{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    color: white;
+
+}
+.myservices{
+    position: absolute;
+    top: 10px;
+    left: 15%;
+    text-transform: uppercase;
+}
+.profil_services ul {
+    position: absolute;
+    top: 40px;
+    left: 17%;
+}
+.profil_services ul li{
+    margin: 10px 0;
+}
+
+
+.instagram::before{
+    display:block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    background: center top /cover url(images/instagram.png) no-repeat;
+
+}
+.linkdln::before{
+    display:block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    background: center top /cover url(images/linkdln.png) no-repeat;
+
+}
+.facebook::before{
+    display:block;
+    content:"";
+    width: 20px;
+    height: 20px;
+    background: center top /cover url(images/facebook.png) no-repeat;
+}
+.email::before{
+        display:block;
+        content:"";
+        width: 20px;
+        height: 20px;
+        background: center top /cover url(images/gmail.png) no-repeat;
+    
+}
+.email, .facebook, .linkdln,.instagram{
+    display:inline-block;
+    margin: 0 10px;
+}
+.profil_contact{
+    margin-left: 40px;
+}
+.phone_number{
+    margin-left: 27px;
+margin-top: 25px;
+color: white;
 }
