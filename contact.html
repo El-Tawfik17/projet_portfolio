@@ -8,67 +8,136 @@
     <link rel="stylesheet" href="style.css">
     <title>CONTACT</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                 <i class="fas fa-bars"> </i> 
-                <!-- <i class="fa-solid fa-user"> </i> -->
-            </label>
-            <label class="logo">El-Tawfik </label>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="service.html">Services</a></li>
-                
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="projet.html">projet</a></li>
-                <li><a href="skill.html">skill</a></li>
-            </ul>
-        </nav>
+<body class="contact_body">
+    <div class="header_co">
+        <header class="menu">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"> </i> 
+                    <!-- <i class="fa-solid fa-user"> </i> -->
+                </label>
+                <label class="logo">El-Tawfik </label>
+                <ul class="nav_ul">
+                    <li><a href="index.html" >Acceuil</a></li>
+                    <li><a href="about.html">iNFORMATION</a></li>
+                    <li><a href="contact.html" class="active">CONTACT</a></li>
+                    <li><a href="projet.html">Mes Realisations</a></li>
+    
+                </ul>
+            </nav>
+    
+        </header>
+    </div>
+    <div class="profil_contact about_profil_contact">
+        <!-- first part -->
+            <div class="bio_title">
+                <div class="bio_num">
+                    <span class="first_num">+|</span>
+                </div>
+                <div class="bio_sub_title">
+                    <span>Contact</span>
+                </div>
+            </div>
 
-    </header>
-    <h1>contact</h1>
-    <main class="contact_main">
-        <aside class="left_side">
-           <div class="profil_image">
-            <!-- <img src="images/im.jpeg" alt="mon profil"> -->
+        <!-- first parte -->
+        <!-- Second part -->
+            <div class="bio_co">
+                <div class="bio_name_co">
+                    <div class="bio_name">
+                            <div class="name">
+                                <span class="full_name"> NADA-ABI Tawfik</span>
+                            </div>
+                            <div class="sub_bio">
+                                Developper/Full Stack(front-end & back-end)
+                            </div>
+                    </div>  
+                </div>
+            </div>
+        <!-- second parte -->
+        <!-- third part -->
+        <div class="bio_main_co contact_bio_main_co">
+            <div class="bio_address contact_bio_address">
+                <div class="bio_local">
+                    <span class="local">Localisation/</span> <span class="my_local">Lome,Togo</span>
+                    <hr>
+             
+                </div>
+                <div class="bio_email">
+                    <span class="bbio_email">Email/</span> <span class="my_email">Kifwat17@gmail.com</span>
+                    <hr>
+             
+                </div>
+                <div class="bio_cv">
+                    <span class="cv">Curriculum Vitae/</span> <span class="my_cv"><a href="cv/pdf">cv.pdf</a></span>
+                    <hr>
+             
+                </div>
+           
+            </div>
         </div>
-        <div class="profil_name">
-            <p class="myname">NADA-ABI Tawfik</p>
-            <p class="mybio">DEVELOPPER LOGICIEL FULL-STACK</p>
-        </div>
-        <div class="profil_services">
-            <p class="myservices">SERvices</p>
-            <ul>
-                <li>Lorem ipsumm is simply</li>
-                <li>lorem ipsumm is simply</li>
-                <li>lorem ipsumm is simply</li>
-                <li>lorem ipsumm is simply</li>
-            </ul>
+        <div class ="container">
+            <h1 class="contact_title">Contacter Moi</h1>
+            <p class="contact_paragraph"> Je suis actuellement disponible pour un poste de developper front-end ou de back-end...alors n'hésitez pas à me laisser un message !" </p>
+            <form action="">
+                 <div class="form_row">
+                     <div class="form_column">
+                      <label for="name" class="form_input">Name</label>
+                      <input type="text" id="name" placeholder="your name"class="form_input">  
+                     </div>
+             
+             
+                     <div class="form_column">
+                      <label for="email" class="form_label">Email</label>
+                         <input type="email" id="email" placeholder="your email" class="form_input">  
+                     </div>
+                 </div>
+                 <div class="form_row">
+                     <div class="form_column">
+                         <label for="subject" class="form_label">Subject</label>
+                         <input type="text" id="subject" placeholder="your subject" class="form_input">
+                     </div>
+                     <div class="form_column">
+                         <label for="contact" class="form_label">Contact Number</label>
+                         <input type="tel" id="contact" placeholder="your phone number" class="form_input">
+                     </div>
+                 </div>
+                 <div class="form_row">
+                     <div class="form_column">
+                         <label for="issue" class="form_label">Description</label>
+                         <textarea  id="issue" cols="30" rows="10">tell me about you project here!!!</textarea>
+                     </div>
+                 
+                 </div>
+                 <button>submit</button> 
+            </form>
             
         </div>
-        <div class="profil_contact">
-            <div class="instagram"> </div>
-            <div class="linkdln"> </div>
-            <div class="facebook"> </div>
-            <div  class="email"> </div>
-            <div class="twitter"> </div>
-            <div class="phone_number">+228 70007488</div>
-        </div>
+        <!-- fourth parte -->
+        <div class="footer_co">
+             <footer class="footer_contact">
+                 <div class="footer-content"> 
+                     <h3>El-Tawfik</h3>
+                     <p>Je suis actuellement disponible pour un poste de Developper Web
+                     ...alors n'hésitez pas à me laisser un message !"</p>
+                     <nav class="social_footer">
+                         <a href="#"> <i class="fa fa-facebook"></i> </a>
+                         <a href="#"><i class="fa fa-twitter"></i></a>
+                         <a href="#"><i class="fa fa-google"></i></a>
+                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="#"><i class="fa fa-instagram"></i></a>
+                     </nav>    
+                 </div>
+                 <div class="footer-bottom">
+                  <p>copyright &copy;2022 El_Tawfik.designed by <span>NADA-ABI Tawfik</span></p>
+                 </div>
+     
+             </footer>   
+         </div>
 
-        </aside>
-        <section class="contact_section">
-            <div class="contact_section_presentation">
 
-            </div>
-            <div class="contact_section_btn">
 
-            </div>
-        </section>
-
-    </main>
+    </div>
     
 </body>
 </html>
