@@ -574,7 +574,7 @@ p{
 .projet_img_f{
     background: center center/contain url("images/projet6.jpg") no-repeat;
 }
-
+/*in this part you are doing resoponsible design  */
 @media screen and (max-width:790px){
     .bio_address{
         width:100%;
@@ -638,6 +638,7 @@ p{
     }
     
 }
+/* footer design */
 footer{
     background: #111;
     height: auto;
@@ -817,7 +818,7 @@ button{
 .contact_bio_address{
     margin-left: 5%;
 }
- 
+ /* making  form responsible */
  
 @media only screen and (max-width:414px){
     .container{
@@ -911,13 +912,6 @@ button{
         margin-top: 10px;
     }
 }
-
- 
-/* @media only screen and (max-width:393px){
-    .container{
-        margin-left: 22px;
-    }
-} */
 @media only screen and (max-width:280px){
     .container{
         margin-left: -50px;
