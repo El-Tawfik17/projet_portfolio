@@ -796,7 +796,9 @@ button{
 .container{ 
     background-color:wheat;
     width: 100%;
-    min-width: 400px; 
+    min-width: 400px;
+    margin: 0 5%;
+    /* max-width: 1000px;  */
     padding: 35px 50px; 
     border-radius: 10px;
     box-shadow: 20px 30px 35px rgba(0,0,0,0.15);
